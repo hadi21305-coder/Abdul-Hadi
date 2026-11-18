@@ -136,6 +136,50 @@ body {
     color: white;
 }
 
+/* Education Section Styling */
+.education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+.edu-card {
+    background: white;
+    padding: 1.4rem 1.8rem;
+    border-radius: 8px;
+    border-left: 5px solid #0284c7;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.edu-card:hover {
+    transform: translateX(5px);
+}
+
+.edu-card h3 {
+    color: #1e293b;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.edu-card .institution {
+    color: #475569;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+}
+
+.edu-card .edu-year {
+    display: inline-block;
+    background-color: #e0f2fe;
+    color: #0369a1;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+}
+
 /* Skills Tags */
 .skills-container {
     display: flex;
